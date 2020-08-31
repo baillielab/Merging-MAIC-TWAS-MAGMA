@@ -6,11 +6,11 @@ Created on Thu Aug 27 17:20:10 2020
 """
 import pandas as pd
 #Set the paths to the files and the final name of the exported file
-Path_to_MAIC = 'C:/Users/migue/Desktop/Baillie/maic_raw.txt'
-Path_to_MAGMA = 'C:/Users/migue/Desktop/Baillie/broad.rand_2020_07_16.genes.out.sorted.TXT'
-Path_to_TWAS_lungs = 'C:/Users/migue/Desktop/Baillie/Ix05/twasresults/TWAS.A.matched_gtex.lung.dat' #gtex
-Path_to_TWAS_wholeblood = 'C:/Users/migue/Desktop/Baillie/Ix05/twasresults/TWAS.A.matched_gtex.wholeblood.dat' #gtex
-Path_to_export = 'C:/Users/migue/Desktop/Baillie/' #without name
+Path_to_MAIC = 'C:/Users/migue/Desktop/Baillielab/maic_raw.txt'
+Path_to_MAGMA = 'C:/Users/migue/Desktop/Baillielab/broad.rand_2020_07_16.genes.out.sorted.TXT'
+Path_to_TWAS_lungs = 'C:/Users/migue/Desktop/Baillielab/Ix05/twasresults/TWAS.A.matched_gtex.lung.dat' #gtex
+Path_to_TWAS_wholeblood = 'C:/Users/migue/Desktop/Baillielab/Ix05/twasresults/TWAS.A.matched_gtex.wholeblood.dat' #gtex
+Path_to_export = 'C:/Users/migue/Desktop/Baillielab/' #without name
 Name_of_exported_file= '.txt' 
 #Import MAIC results
 MAIC=pd.read_csv(Path_to_MAIC,sep='\t')
